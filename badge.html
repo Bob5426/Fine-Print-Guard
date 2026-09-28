@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fair Terms Badge for Your Website | Fine Print Guard</title>
+<meta name="description" content="Does your site's terms of service get an A or B from Fine Print Guard? Add a free badge that shows visitors your terms are fair.">
+<link rel="icon" href="icon128.png">
+<meta property="og:title" content="Fair Terms Badge for Your Website | Fine Print Guard">
+<meta property="og:description" content="Does your site's terms of service get an A or B from Fine Print Guard? Add a free badge that shows visitors your terms are fair.">
+<style>
+:root{--bg:#f8fafc;--ink:#0f172a;--muted:#475569;--card:#fff;--line:#e2e8f0;--accent:#4f46e5;--accent-ink:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1120;--ink:#e2e8f0;--muted:#94a3b8;--card:#111a2e;--line:#1e293b;--accent:#818cf8;--accent-ink:#0b1120}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{padding:20px 0;display:flex;align-items:center;gap:10px;font-weight:700}
+header img{width:32px;height:32px}
+.hero{padding:40px 0 20px;text-align:center}
+.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.15;margin:0 0 14px}
+.hero p{font-size:19px;color:var(--muted);max-width:640px;margin:0 auto 26px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:14px 26px;border-radius:10px;font-weight:700;text-decoration:none}
+.note{font-size:14px;color:var(--muted);margin-top:10px}
+.shot{width:100%;height:auto;border-radius:12px;margin:34px 0 0;box-shadow:0 20px 50px rgba(15,23,42,.25)}
+section{padding:46px 0 10px}
+h2{font-size:28px;margin:0 0 18px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}
+summary{font-weight:650;cursor:pointer}
+details p{color:var(--muted);margin:10px 0 0}
+footer{padding:50px 0 40px;text-align:center;color:var(--muted);font-size:14px}
+</style>
+<style>.prose{max-width:760px}.prose p,.prose li{color:var(--muted)}.prose h2{margin-top:34px}ol,ul{padding-left:22px}table{width:100%;border-collapse:collapse;margin:18px 0}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);font-size:16px}.g{display:inline-block;width:34px;text-align:center;border-radius:6px;font-weight:800;color:#fff}pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto;font-size:14px;white-space:pre-wrap;word-break:break-all}</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a href="./" style="display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none"><img src="icon128.png" alt="">Fine Print Guard</a></header>
+  <article class="prose">
+    <h1 style="font-size:clamp(28px,4.5vw,40px);line-height:1.2">Show visitors your terms are fair</h1>
+    <p>Fine Print Guard is a free Chrome ad blocker that also reads each site's terms of service and privacy policy and grades them A to F. If your site gets an A or a B, you can add a badge that says so.</p>
+    <h2>How to get the badge</h2>
+    <ol>
+      <li><a href="https://chromewebstore.google.com/detail/dkioccojkopmfbldghcgampmmnkpafmf">Add Fine Print Guard to Chrome</a> (free, no account).</li>
+      <li>Open your own site and click the Fine Print Guard icon to see its grade.</li>
+      <li>If it shows A or B, copy the matching code below into your site's footer or your terms page.</li>
+    </ol>
+    <h2>Grade A</h2>
+    <p><img src="badge-a.svg" alt="Fine Print Guard terms grade A" width="236" height="32"></p>
+    <pre>&lt;a href="https://bob5426.github.io/Fine-Print-Guard/badge.html"&gt;&lt;img src="https://bob5426.github.io/Fine-Print-Guard/badge-a.svg" alt="Fine Print Guard terms grade A" width="236" height="32"&gt;&lt;/a&gt;</pre>
+    <h2>Grade B</h2>
+    <p><img src="badge-b.svg" alt="Fine Print Guard terms grade B" width="236" height="32"></p>
+    <pre>&lt;a href="https://bob5426.github.io/Fine-Print-Guard/badge.html"&gt;&lt;img src="https://bob5426.github.io/Fine-Print-Guard/badge-b.svg" alt="Fine Print Guard terms grade B" width="236" height="32"&gt;&lt;/a&gt;</pre>
+    <h2>The fine print on the badge</h2>
+    <ul>
+      <li>The badge shows the grade your terms got when you checked. If you change your terms, check again and remove the badge if the grade drops.</li>
+      <li>The grade is automatic. It flags wording it recognises, like selling data, taking rights to user content, AI training and forced arbitration. It is not legal advice or an audit.</li>
+      <li>The badge is free. There is nothing to sign up for.</li>
+    </ul>
+  </article>
+  <footer><a class="btn" href="https://chromewebstore.google.com/detail/dkioccojkopmfbldghcgampmmnkpafmf">Add Fine Print Guard to Chrome, free</a><p><a href="./" style="color:inherit">Back to Fine Print Guard</a></p></footer>
+</div>
+</body>
+</html>
