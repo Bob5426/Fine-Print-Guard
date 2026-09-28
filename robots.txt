@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bob5426.github.io/Fine-Print-Guard/sitemap.xml

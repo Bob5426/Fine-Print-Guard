@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Stop Cookie Pop-ups in Chrome (and Reject Them Automatically)</title>
+<meta name="description" content="Two ways to stop cookie consent pop-ups in Chrome: block third-party cookies in settings, or use a free extension that clicks Reject all for you.">
+<link rel="icon" href="icon128.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is it safe to reject all cookies?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Sites must still work with only their necessary cookies, such as the one that keeps you logged in or remembers your basket."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does rejecting cookies stop all tracking?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. It stops optional cookies on that site. Blocking third-party cookies and using a tracker blocker covers more."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is Fine Print Guard free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Every feature is free, with no account."
+   }
+  }
+ ]
+}
+</script>
+<style>
+:root{--bg:#f8fafc;--ink:#0f172a;--muted:#475569;--card:#fff;--line:#e2e8f0;--accent:#4f46e5;--accent-ink:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1120;--ink:#e2e8f0;--muted:#94a3b8;--card:#111a2e;--line:#1e293b;--accent:#818cf8;--accent-ink:#0b1120}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{padding:20px 0;display:flex;align-items:center;gap:10px;font-weight:700}
+header img{width:32px;height:32px}
+.hero{padding:40px 0 20px;text-align:center}
+.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.15;margin:0 0 14px}
+.hero p{font-size:19px;color:var(--muted);max-width:640px;margin:0 auto 26px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:14px 26px;border-radius:10px;font-weight:700;text-decoration:none}
+.note{font-size:14px;color:var(--muted);margin-top:10px}
+.shot{width:100%;height:auto;border-radius:12px;margin:34px 0 0;box-shadow:0 20px 50px rgba(15,23,42,.25)}
+section{padding:46px 0 10px}
+h2{font-size:28px;margin:0 0 18px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}
+summary{font-weight:650;cursor:pointer}
+details p{color:var(--muted);margin:10px 0 0}
+footer{padding:50px 0 40px;text-align:center;color:var(--muted);font-size:14px}
+</style>
+<style>.prose{max-width:720px}.prose p,.prose li{color:var(--muted)}.prose h2{margin-top:34px}ol,ul{padding-left:22px}</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a href="./" style="display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none"><img src="icon128.png" alt="">Fine Print Guard</a></header>
+  <article class="prose">
+    <h1 style="font-size:clamp(28px,4.5vw,40px);line-height:1.2">How to stop cookie pop-ups in Chrome</h1>
+    <p>Cookie banners appear because privacy laws require sites to ask before setting optional cookies. You can't make sites stop asking, but you can stop answering by hand. Here are the two ways that work.</p>
+    <h2>1. Block third-party cookies in Chrome</h2>
+    <ol>
+      <li>Open Chrome and go to <b>Settings</b>.</li>
+      <li>Click <b>Privacy and security</b>, then <b>Third-party cookies</b>.</li>
+      <li>Choose <b>Block third-party cookies</b>.</li>
+    </ol>
+    <p>This stops advertisers following you from site to site. It does <b>not</b> make the banners go away, because sites still have to ask about their own cookies.</p>
+    <h2>2. Let an extension reject them for you</h2>
+    <p><a href="https://chromewebstore.google.com/detail/dkioccojkopmfbldghcgampmmnkpafmf">Fine Print Guard</a> is a free Chrome extension that answers cookie banners automatically. When a banner appears, it clicks <b>Reject all</b>. If there is no such button, it opens the settings panel and switches every optional category off.</p>
+    <ul>
+      <li>It only ever rejects. It has no code that clicks Accept.</li>
+      <li>Every banner it answers comes with an <b>Undo</b>, so you can bring it back.</li>
+      <li>It also blocks ads, pop-ups and trackers, and sends the Global Privacy Control "do not sell my data" signal.</li>
+    </ul>
+    <p>A tip: keep the category that stores your language and region. It doesn't track you, and turning it off makes sites forget your settings. Fine Print Guard keeps it by default and lets you change that.</p>
+    <section><h2>Questions</h2><details><summary>Is it safe to reject all cookies?</summary><p>Yes. Sites must still work with only their necessary cookies, such as the one that keeps you logged in or remembers your basket.</p></details><details><summary>Does rejecting cookies stop all tracking?</summary><p>No. It stops optional cookies on that site. Blocking third-party cookies and using a tracker blocker covers more.</p></details><details><summary>Is Fine Print Guard free?</summary><p>Yes. Every feature is free, with no account.</p></details></section>
+  </article>
+  <footer><a class="btn" href="https://chromewebstore.google.com/detail/dkioccojkopmfbldghcgampmmnkpafmf">Add Fine Print Guard to Chrome, free</a><p><a href="./" style="color:inherit">Back to Fine Print Guard</a></p></footer>
+</div>
+</body>
+</html>
